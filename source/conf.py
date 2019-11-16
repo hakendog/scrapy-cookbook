@@ -26,6 +26,7 @@ author = 'hakendog'
 
 # The full version, including alpha/beta/rc tags
 release = 'hair'
+master_doc = 'index'
 
 
 # -- General configuration ---------------------------------------------------
