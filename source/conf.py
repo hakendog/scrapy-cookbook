@@ -20,7 +20,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'hair'
+project = '助聽專題'
 copyright = '2019, hakendog'
 author = 'hakendog'
 
