@@ -8,12 +8,12 @@ Welcome to hair's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 規則
    
-   example
-
-
-Indices and tables
+   namerule
+   customrule
+   hotkey
+   
 ==================
 
 * :ref:`genindex`

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>搜尋 &mdash; 助聽專題 hair 說明文件</title>
+  <title>命名規則 &mdash; 助聽專題 hair 說明文件</title>
   
 
   
@@ -28,7 +28,9 @@
     <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
-    <link rel="search" title="搜尋" href="#" /> 
+    <link rel="search" title="搜尋" href="search.html" />
+    <link rel="next" title="宣告規則" href="customrule.html" />
+    <link rel="prev" title="Welcome to hair’s documentation!" href="index.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -60,7 +62,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -78,8 +80,13 @@
             
             
               <p class="caption"><span class="caption-text">規則</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="namerule.html">命名規則</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">命名規則</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">函數與變數</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">常數</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">類別</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="customrule.html">宣告規則</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hotkey.html">快捷鍵</a></li>
 </ul>
@@ -127,12 +134,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>搜尋</li>
+      <li>命名規則</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/namerule.md.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -144,24 +153,54 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search
-      functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="id1">
+<h1>命名規則<a class="headerlink" href="#id1" title="本標題的永久連結">¶</a></h1>
+<div class="section" id="id2">
+<h2>函數與變數<a class="headerlink" href="#id2" title="本標題的永久連結">¶</a></h2>
+<p>函數與變數命名規則皆使用<strong>小寫駝峰型</strong>，字首一律小寫</p>
+<p>第二個單字開始字首一律大寫</p>
+<p>範例：</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">setUpNetworking</span><span class="o">;</span>
+<span class="n">getField</span> <span class="o">();</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id3">
+<h2>常數<a class="headerlink" href="#id3" title="本標題的永久連結">¶</a></h2>
+<p>常數表示一個固定的值，通常不會變動</p>
+<p>使用<strong>全部大寫</strong></p>
+<p>範例：</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">VOLUME</span> <span class="o">=</span> <span class="mi">100</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">SPEED</span> <span class="o">=</span> <span class="mi">1000</span><span class="o">;</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id4">
+<h2>類別<a class="headerlink" href="#id4" title="本標題的永久連結">¶</a></h2>
+<p>類別(class)使用<strong>大寫駝峰型</strong>，每個單字字首皆大寫</p>
+<p>範例：</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="o">{...}</span>
+</pre></div>
+</div>
+</div>
+</div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="customrule.html" class="btn btn-neutral float-right" title="宣告規則" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to hair’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -203,7 +242,6 @@
       <script type="text/javascript" src="_static/doctools.js"></script>
       <script type="text/javascript" src="_static/language_data.js"></script>
       <script type="text/javascript" src="_static/translations.js"></script>
-      <script type="text/javascript" src="_static/searchtools.js"></script>
 
   
 
@@ -218,14 +256,7 @@
           SphinxRtdTheme.Navigation.enableSticky();
           
       });
-  </script>
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
-   
-
+  </script> 
 
 </body>
 </html>

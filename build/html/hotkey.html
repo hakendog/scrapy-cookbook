@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>搜尋 &mdash; 助聽專題 hair 說明文件</title>
+  <title>快捷鍵 &mdash; 助聽專題 hair 說明文件</title>
   
 
   
@@ -28,7 +28,8 @@
     <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
-    <link rel="search" title="搜尋" href="#" /> 
+    <link rel="search" title="搜尋" href="search.html" />
+    <link rel="prev" title="宣告規則" href="customrule.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -60,7 +61,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -78,10 +79,10 @@
             
             
               <p class="caption"><span class="caption-text">規則</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="namerule.html">命名規則</a></li>
 <li class="toctree-l1"><a class="reference internal" href="customrule.html">宣告規則</a></li>
-<li class="toctree-l1"><a class="reference internal" href="hotkey.html">快捷鍵</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">快捷鍵</a></li>
 </ul>
 
             
@@ -127,12 +128,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>搜尋</li>
+      <li>快捷鍵</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/hotkey.md.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -144,24 +147,63 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search
-      functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="id1">
+<h1>快捷鍵<a class="headerlink" href="#id1" title="本標題的永久連結">¶</a></h1>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th>快捷鍵</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+Q</td>
+<td>查找快速文檔，即在另外一個窗口中打開其聲明</td>
+</tr>
+<tr>
+<td>Ctrl+B</td>
+<td>查找該變數的定義位置</td>
+</tr>
+<tr>
+<td>Alt+Shift+C</td>
+<td>查看工程最近更改的地方</td>
+</tr>
+<tr>
+<td>Ctrl+shift+<br />上下箭頭</td>
+<td>把選擇的代碼往上下移</td>
+</tr>
+<tr>
+<td>Ctrl+F</td>
+<td>尋找</td>
+</tr>
+<tr>
+<td>Ctrl+R</td>
+<td>取代</td>
+</tr>
+<tr>
+<td>shift + F6</td>
+<td>變更所有同一個類別或方法或變數的名稱</td>
+</tr>
+<tr>
+<td>shift</td>
+<td>出現提示時選擇程式碼後按下 shift 可以避免使用 Enter 所產生重複程式碼的錯誤</td>
+</tr>
+</tbody>
+</table></div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="customrule.html" class="btn btn-neutral" title="宣告規則" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -203,7 +245,6 @@
       <script type="text/javascript" src="_static/doctools.js"></script>
       <script type="text/javascript" src="_static/language_data.js"></script>
       <script type="text/javascript" src="_static/translations.js"></script>
-      <script type="text/javascript" src="_static/searchtools.js"></script>
 
   
 
@@ -218,14 +259,7 @@
           SphinxRtdTheme.Navigation.enableSticky();
           
       });
-  </script>
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
-   
-
+  </script> 
 
 </body>
 </html>
