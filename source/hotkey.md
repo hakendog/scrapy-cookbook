@@ -11,3 +11,7 @@
 | shift + F6                | 變更所有同一個類別或方法或變數的名稱                         |
 | shift                     | 出現提示時選擇程式碼後按下 shift 可以避免使用 Enter 所產生重複程式碼的錯誤 |
 
+!!! type "optional explicit title within double quotes"
+    Any number of other indented markdown elements.
+
+    This is the second paragraph.
